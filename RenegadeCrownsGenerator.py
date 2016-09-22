@@ -5,7 +5,7 @@ def mapTable(d100):
         if d100 == 83:
             size = random.randint(1,10) * 20
         elif d100 == 92:
-            size = random.randint(1,10) * 20
+            size = random.randint(1,10) * 50  #Fixed math here <<21Sep2016
         else:
             size = random.randint(1,100)
         mapGen = ['Barren Plains', size]
