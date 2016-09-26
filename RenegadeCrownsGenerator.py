@@ -696,7 +696,7 @@ print('')#LineBreak
 
 ###PrinceGeneration
 print('~*~{PRINCES}~*~')
-princeCount = ruinCountGen(random.randint(1,101))
+princeCount = ruinCountGen(random.randint(1,101)) #Uses same table as Ruin Count to generate number.
 #print('Debug Prince Count :' + str(princeCount))
 for i in range (princeCount):
     princeGoal = random.randint(1,10)
