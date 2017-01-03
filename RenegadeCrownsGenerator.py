@@ -139,7 +139,8 @@ def mapTable(d100):
 def specialTable(d10):
     if d10 == 1:
         size = random.randint(1,100)
-        caveGen = ['\tCaves', 0, size] #/!\Second Value MUST be zero or the math will be incorrect/!\
+        caveGen = ['Caves', 0, size] #/!\Second Value MUST be zero or the math will be incorrect/!\
+	#Changed from '\tCaves' to 'Caves'. Can't tab list values. D'OH! - Quixano, 03Jan2016
         return caveGen
     elif d10 == 2:
         return '\tCliffs'
