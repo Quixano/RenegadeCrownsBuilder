@@ -1,5 +1,5 @@
 # RenegadeCrownsBuilder
-''' A quick program on the Principality Creation rules present in Warhammer Fantasy RPG's Sourcebook: "Renegade Crowns".
+''' A quick console-based program on the Principality Creation rules present in Warhammer Fantasy RPG's Sourcebook: "Renegade Crowns".
 
 Currently missing the following features:
 > Does not compute relations between Princes (yet)
