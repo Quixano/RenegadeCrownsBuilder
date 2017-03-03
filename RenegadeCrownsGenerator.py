@@ -1,5 +1,7 @@
 import random
 
+#Python doesn't have a switch case statement? FML
+
 def mapTable(d100):
     if d100 == 1 or d100 == 11 or d100 == 21 or d100 == 31 or d100 == 41 or d100 == 51 or d100 == 61 or d100 == 71 or d100 == 83 or d100 == 93:
         if d100 == 83:
